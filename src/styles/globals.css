@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg-page text-text-primary;
+}
+
+.card {
+  @apply bg-bg-card border border-border rounded-xl shadow-card;
+}
+
+.btn-primary {
+  @apply bg-primary text-white rounded-xl px-4 py-2 hover:bg-primary-dark disabled:opacity-50;
+}
+
+.input {
+  @apply border border-border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
